@@ -1,0 +1,43 @@
+/*Aqui iran los codigos de estilo*/
+*{
+    --color1:#C9E2FF;
+    --color2:#A86F25;
+    --color3:#FAF155;
+    --color4:#FF0000;
+
+}
+#contenedor{
+    width:90%;
+    margin:auto;
+    padding:5px;
+    background-color: beige;
+}
+h1 {
+        color:var(--color4);
+        text-align:center ;
+    }
+h2{
+        color:var(--color2);
+        text-decoration:underline ;
+}
+#parrafo1{
+        text-align: justify;   
+        }
+#parrafo2{
+        text-align: center;           
+        }
+#parrafo3{
+        text-align: end;       
+        }
+.subrayado{
+        text-decoration: underline;
+        color:blue;
+        }
+.bordes{
+        border:2px solid grey;
+        }
+img{
+    width:60%;
+    display: block;
+    margin:auto;
+}

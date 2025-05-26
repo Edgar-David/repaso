@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        #padre{
+            border:2px solid red;
+            width:500px;
+          
+            
+            margin:25px auto;
+            background-color: lightpink;
+            /*Propiedades de caja flexbox*/
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        .hijo{
+            width:100px;
+            height: 100px;
+            margin:10px;
+            color:white;
+            text-align: center;
+            align-content: center;          
+        }
+        .azul{
+            background-color: blue;
+        }
+        .verde{
+            background-color: green;
+        }
+        .rojo{
+            background-color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="padre">
+        <div class="hijo azul">1</div>
+        <div class="hijo verde">2</div>
+        <div class="hijo rojo">3</div>
+        <div class="hijo azul">4</div>
+        <div class="hijo verde">5</div>
+        <div class="hijo rojo">6</div>
+        <div class="hijo azul">7</div>
+        <div class="hijo verde">8</div>
+        <div class="hijo azul">9</div>
+        <div class="hijo rojo">9</div>
+        <div class="hijo verde">9</div>
+    </div>
+    
+</body>
+</html>
